@@ -40,7 +40,7 @@ function KeyPad(props) {
           <button id="decimal" onClick={() => decimalClick()}>.</button>
           <button id="number0" onClick={() => numberClick('0')}>0</button>
           <button id="operator-equals" onClick={() => operatorClick('=')}>=</button>
-          <button id="operator_add" onClick={() => operatorClick('+')}>+</button>
+          <button id="operator-add" onClick={() => operatorClick('+')}>+</button>
         </div>
         </div>
   );
